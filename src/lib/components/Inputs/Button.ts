@@ -4,25 +4,32 @@ import { Colors } from '../Styles'
 type ButtonTypes = 'default'|'primary'|'secondary'|'disabled'
 
 const defaultButton = `
-    background-color: ${Colors.default};
-    color: ${Colors.textDark};
-    &:hover {
-        background-color: #d5d5d5;
-    }
+  background-color: ${Colors.default.default};
+  color: ${Colors.textDark};
+  &:hover {
+    background-color: ${Colors.default.dark};
+  }
 `
 const primaryButton = `
-    background-color: ${Colors.primary};
-    color: ${Colors.textLight};
+  background-color: ${Colors.primary.default};
+  color: ${Colors.textDark};
+  &:hover {
+    background-color: ${Colors.primary.dark};
+  }
 `
 
 const secondaryButton = `
-    background-color: #e0e0e0;
-    color: #333;
+  background-color: ${Colors.secondary.default};
+  color: ${Colors.textLight};
+  &:hover {
+    background-color: ${Colors.secondary.dark};
+  }
 `
 
 const disabledButton = `
-    background-color: #e0e0e0;
-    color: #333;
+    background-color: ${Colors.default.default};
+    color: ${Colors.default.light};
+    cursor: not-allowed;
 `
 
 interface IButtonProps {
