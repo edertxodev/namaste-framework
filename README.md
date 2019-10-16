@@ -2,7 +2,7 @@
 
 >
 
-[![NPM](https://img.shields.io/npm/v/namaste-framework.svg)](https://www.npmjs.com/package/namaste-framework) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/namaste-framework.svg)](https://www.npmjs.com/package/namaste-framework) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Build Status](https://travis-ci.org/edertxodw/namaste-framework.svg?branch=master)](https://travis-ci.org/edertxodw/namaste-framework)
 
 ## Install
 
