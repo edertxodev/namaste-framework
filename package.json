@@ -36,6 +36,7 @@
   "devDependencies": {
     "@svgr/rollup": "^4.3.3",
     "@types/jest": "^24.0.19",
+    "@types/jquery": "^3.3.31",
     "@types/react": "^16.9.7",
     "@types/react-dom": "^16.9.2",
     "@types/styled-components": "^4.1.19",
@@ -43,6 +44,7 @@
     "babel-runtime": "^6.26.0",
     "cross-env": "^6.0.3",
     "gh-pages": "^2.1.1",
+    "jquery": "^3.4.1",
     "node-sass": "^4.12.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",

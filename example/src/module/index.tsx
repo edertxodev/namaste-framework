@@ -11,7 +11,8 @@ import {
     CardContent,
     CardActions,
     Button,
-    TextInput
+    TextInput,
+    SelectInput
 } from 'namaste-framework'
 
 const App = () => {
@@ -36,8 +37,11 @@ const App = () => {
               </CardActions>
           </Card>
           </Column>
-          <Column desktop={6}>
-            <TextInput label="Kaixo" placeholder="Kaixooo" />
+          <Column desktop={3}>
+            <TextInput label="Kaixo" value="Example" />
+          </Column>
+          <Column desktop={3}>
+            <SelectInput label="Agur" empty options={[{value: '1', text: 'Select 1'}, {value: '2', text: 'Select 2'}]} />
           </Column>
         </Row>
       </Container>
