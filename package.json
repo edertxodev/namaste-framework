@@ -1,6 +1,6 @@
 {
   "name": "namaste-framework",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React styling framework",
   "author": "edertxodw",
   "license": "MIT",
@@ -48,6 +48,7 @@
     "node-sass": "^4.12.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
+    "react-dropdown": "^1.6.4",
     "react-scripts-ts": "^3.1.0",
     "rollup": "^1.24.0",
     "rollup-plugin-babel": "^4.3.3",
