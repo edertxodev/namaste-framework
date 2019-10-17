@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.caf25458.chunk.js",
-    "main.js.map": "/static/js/main.caf25458.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f47b6839.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f47b6839.js.map",
-    "static/js/2.71a5126b.chunk.js": "/static/js/2.71a5126b.chunk.js",
-    "static/js/2.71a5126b.chunk.js.map": "/static/js/2.71a5126b.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.1a812a9a6bf829c46e16f39dd94724df.js": "/precache-manifest.1a812a9a6bf829c46e16f39dd94724df.js",
-    "service-worker.js": "/service-worker.js"
+    "main.js": "/namaste-framework/static/js/main.15d302a2.chunk.js",
+    "main.js.map": "/namaste-framework/static/js/main.15d302a2.chunk.js.map",
+    "runtime-main.js": "/namaste-framework/static/js/runtime-main.72ca96c6.js",
+    "runtime-main.js.map": "/namaste-framework/static/js/runtime-main.72ca96c6.js.map",
+    "static/js/2.71a5126b.chunk.js": "/namaste-framework/static/js/2.71a5126b.chunk.js",
+    "static/js/2.71a5126b.chunk.js.map": "/namaste-framework/static/js/2.71a5126b.chunk.js.map",
+    "index.html": "/namaste-framework/index.html",
+    "precache-manifest.4636bf952d6ffd74d92f1db9f2ca1f99.js": "/namaste-framework/precache-manifest.4636bf952d6ffd74d92f1db9f2ca1f99.js",
+    "service-worker.js": "/namaste-framework/service-worker.js"
   },
   "entrypoints": [
-    "static/js/runtime-main.f47b6839.js",
+    "static/js/runtime-main.72ca96c6.js",
     "static/js/2.71a5126b.chunk.js",
-    "static/js/main.caf25458.chunk.js"
+    "static/js/main.15d302a2.chunk.js"
   ]
 }
