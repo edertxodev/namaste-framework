@@ -23,6 +23,14 @@ const DefaultSelect = styled(Dropdown)`
   -webkit-appearance:none;
 	-moz-appearance:none;
 	cursor: pointer;
+  .Dropdown-control {
+    .Dropdown-placeholder {
+      opacity: .5;
+    }
+    .is-selected {
+      opacity: 1;
+    }
+  }
 	.Dropdown-menu {
 		position: absolute;
 		width: 100%;

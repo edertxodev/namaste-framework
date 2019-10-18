@@ -42,7 +42,8 @@ const calculateColumnWidthAndOffset = (props: IColumnComponentProps, type: keyof
 
 export const Column = styled.div<IColumnComponentProps>`
     float: left;
-    padding: .25rem;
+    padding-right: 5px;
+    padding-left: 5px;
     min-height: 1px;
     box-sizing: border-box;
 
