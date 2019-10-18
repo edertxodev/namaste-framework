@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9da042acbffda9d3511da5671f947d74",
+    "revision": "1067b852255ea15c20c7faadeed921ab",
     "url": "/namaste-framework/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/namaste-framework/static/js/2.71a5126b.chunk.js"
   },
   {
-    "revision": "ade244970189539277dd",
-    "url": "/namaste-framework/static/js/main.15d302a2.chunk.js"
+    "revision": "ad31323c3174b1d9f8ff",
+    "url": "/namaste-framework/static/js/main.d623732b.chunk.js"
   },
   {
     "revision": "24257837ea86f996893f",
