@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
     Column,
     Row,
@@ -17,9 +17,17 @@ import {
 } from 'namaste-framework'
 
 const App = () => {
+  const [inputState, setInputState] = useState({ value: '', filledFromChild: false })
   const selectOptions = [
     {value: '1', label: 'Select 1'}, {value: '2', label: 'Select 2'}
   ]
+
+  const handleInputChange = (e: any) => {
+    console.log(e)
+    const value = e.target.value
+    setInputState({...inputState, value: value})
+    console.log(inputState)
+  }
 
   return (
     <Container>
@@ -43,7 +51,7 @@ const App = () => {
           </Card>
         </Column>
         <Column desktop={3}>
-          <TextInput label="Kaixo" value="Example" />
+          <TextInput label="Kaixo" value="Example" onChange={handleInputChange} />
         </Column>
         <Column desktop={3}>
           <SelectInput options={selectOptions} />

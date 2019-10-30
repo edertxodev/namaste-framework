@@ -7,6 +7,7 @@ interface IInputProps {
   label?: string
   value?: string
   error?: boolean
+  onChange?: (change: any) => void
 }
 
 const DefaultInput = styled.input`
@@ -45,7 +46,6 @@ export const TextInput = (props: IInputProps) => {
   const handleInputChange = (e: any) => {
     const value = e.target.value
     setInputState({...inputState, value: value})
-    console.log(inputState)
   }
 
   return (
